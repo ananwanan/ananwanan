@@ -1,41 +1,54 @@
+<div align="center">
+
 # Hi, I'm ananwanan 👋
 
-- 🔭 I’m currently working on my projects.
-- 🛠️ My job is Windows Graphic Program now.
-- 🌱 I’m currently learning C++ and Rust.
-- 🏝️ Live in Xi'an, China.
-- 📫 How to reach me: <admin@catcompany.cn>
+### Building useful software across desktop, mobile, and systems.
 
-## Stats
-
-<div align=center>
-
-[![ananwanan's GitHub stats](https://github-readme-stats.vercel.app/api?username=ananwanan&show_icons=true&theme=transparent)](https://github-readme-stats.vercel.app/api?username=ananwanan&show_icons=true&theme=transparent)
+[![GitHub](https://img.shields.io/badge/GitHub-ananwanan-181717?style=flat-square&logo=github)](https://github.com/ananwanan)
+[![Email](https://img.shields.io/badge/Email-admin%40catcompany.cn-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:admin@catcompany.cn)
 
 </div>
 
-## Top Langs
+## About me
 
-<div align=center>
+- 💻 I build desktop, mobile, and system-level applications.
+- 🦀 I'm exploring Rust and modern C++ through hands-on projects.
+- 🤖 I'm interested in practical AI tools and developer experience.
+- 📍 Based in China.
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ananwanan&theme=transparent&hide=javascript,html)](https://github-readme-stats.vercel.app/api?username=ananwanan)
+## Tech stack
+
+<div align="center">
+
+[![My Skills](https://skillicons.dev/icons?i=cpp,rust,kotlin,dart,python,ts,qt,androidstudio,git,linux)](https://skillicons.dev)
 
 </div>
 
-## Repositories
+## Featured projects
 
-<a href="https://github.com/ananwanan/Chat_For_Android" style="margin:2px">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ananwanan&repo=Chat_For_Android&show_owner=false&theme=transparent" />
-</a>
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [**AnAnOS**](https://github.com/ananwanan/AnAnOS) | A systems programming project. | Rust |
+| [**An3DGraphicsLib**](https://github.com/ananwanan/An3DGraphicsLib) | A graphics library project. | C++ |
+| [**fsearch**](https://github.com/ananwanan/fsearch) | A simple tool for searching files on disk. | Rust |
+| [**silk**](https://github.com/ananwanan/silk) | A SILK codec for Android with multiple CPU architectures. | C · Android |
 
-<a href="https://github.com/ananwanan/silk" style="margin:2px">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ananwanan&repo=silk&show_owner=false&theme=transparent" />
-</a>
+## GitHub stats
 
-<a href="https://github.com/ananwanan/ResizePicture" style="margin:2px">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ananwanan&repo=ResizePicture&show_owner=false&theme=transparent" />
-</a>
+<div align="center">
 
-<a href="https://github.com/ananwanan/qmc_decoder_android" style="margin:2px">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ananwanan&repo=qmc_decoder_android&show_owner=false&theme=transparent" />
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ananwanan&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ananwanan&theme=default" alt="ananwanan's GitHub profile summary" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ananwanan&theme=github_dark" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ananwanan&theme=default" alt="Repositories by language" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ananwanan&theme=github_dark" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ananwanan&theme=default" alt="Most used languages by commits" />
+</picture>
+
+</div>
