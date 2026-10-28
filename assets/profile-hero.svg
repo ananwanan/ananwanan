@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">ananwanan — Software and systems engineering</title>
+  <desc id="desc">A dark futuristic developer banner with cyan typography, circuit patterns and an orbital illustration.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#060D1D"/>
+      <stop offset="55%" stop-color="#0B1833"/>
+      <stop offset="100%" stop-color="#101636"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6DF6EB"/>
+      <stop offset="50%" stop-color="#42BFFE"/>
+      <stop offset="100%" stop-color="#987BFF"/>
+    </linearGradient>
+    <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#32E9DD" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#8B6CFF" stop-opacity=".65"/>
+    </linearGradient>
+    <radialGradient id="halo"><stop offset="0%" stop-color="#1AAFBF" stop-opacity=".2"/><stop offset="100%" stop-color="#1AAFBF" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#5CA4D4" stroke-opacity=".075" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect width="1200" height="340" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+    <ellipse cx="985" cy="167" rx="330" ry="300" fill="url(#halo)"/>
+    <path d="M0 0H1200" stroke="url(#accent)" stroke-width="3"/>
+    <path d="M0 339H1200" stroke="#6DF6EB" stroke-opacity=".22"/>
+    <path d="M46 50h92 M46 50v24 M46 292h92 M46 292v-24" stroke="#57EDE8" stroke-opacity=".5" stroke-width="2" fill="none"/>
+    <path d="M667 0 790 86h116l55 37h239 M610 340l110-79h134l86-60h260" stroke="#57ACDB" stroke-opacity=".13" stroke-width="2" fill="none"/>
+    <circle cx="790" cy="86" r="4" fill="#53D6F9" opacity=".65"/>
+    <circle cx="940" cy="201" r="4" fill="#947FFF" opacity=".65"/>
+    <g font-family="Inter, Segoe UI, Arial, sans-serif">
+      <text x="70" y="93" font-size="15" letter-spacing="5.5" font-weight="700" fill="#69DDE8">SOFTWARE  /  SYSTEMS  /  CREATIVITY</text>
+      <text x="66" y="184" font-size="75" font-weight="800" letter-spacing="-2" fill="#ECF7FF">ananwanan</text>
+      <rect x="70" y="205" width="345" height="3" rx="1.5" fill="url(#accent)"/>
+      <text x="70" y="243" font-size="20" fill="#B9D1EA">Building beyond the interface.</text>
+      <text x="70" y="283" font-size="15" letter-spacing="2" fill="#7EA8C5">RUST  ·  C++  ·  OPERATING SYSTEMS  ·  DESKTOP</text>
+      <text x="1082" y="310" text-anchor="end" font-family="Consolas, Monaco, monospace" font-size="11" letter-spacing="2" fill="#6282B2">SYS://ONLINE</text>
+    </g>
+    <g transform="translate(951 166)" fill="none">
+      <circle r="122" stroke="#6D91CC" stroke-opacity=".19" stroke-width="1.4" stroke-dasharray="3 8"/>
+      <circle r="101" stroke="url(#orbit)" stroke-opacity=".55" stroke-width="1.7"/>
+      <circle r="79" stroke="#A0B8FF" stroke-opacity=".25" stroke-width="1.1"/>
+      <circle r="56" stroke="#57E5EE" stroke-opacity=".38" stroke-width="1.6" stroke-dasharray="11 7"/>
+      <circle r="32" stroke="#54CAE9" stroke-opacity=".35"/>
+      <path d="M-134 0H134 M0-134V134" stroke="#79B8EC" stroke-opacity=".13"/>
+      <path d="M-71-71 71 71 M-71 71 71-71" stroke="#79B8EC" stroke-opacity=".10"/>
+      <ellipse rx="135" ry="40" transform="rotate(-28)" stroke="url(#orbit)" stroke-opacity=".7" stroke-width="1.5"/>
+      <ellipse rx="119" ry="58" transform="rotate(54)" stroke="#8A7CFF" stroke-opacity=".33" stroke-width="1.2"/>
+      <path d="M-34-12 0-32 34-12V23L0 43-34 23Z M0-32V7 M-34-12 0 7 34-12 M0 7v36" stroke="url(#accent)" stroke-width="2.7" stroke-linejoin="round" opacity=".95"/>
+      <circle cx="110" cy="-17" r="5" fill="#65F6E5" filter="url(#glow)"/>
+      <circle cx="-102" cy="-62" r="4" fill="#9B86FF"/>
+      <circle cx="-44" cy="96" r="3.5" fill="#55C5FF"/>
+      <path d="M-146-108h37 M-146-108v24 M108 102h43 M151 102v-21" stroke="#59DCE8" stroke-opacity=".4" stroke-width="1.8"/>
+    </g>
+    <g font-family="Consolas, Monaco, monospace" fill="#73B5D7" font-size="11" letter-spacing="1.5" opacity=".8">
+      <text x="759" y="46">01 // DESIGN</text>
+      <text x="1042" y="66">02 // BUILD</text>
+      <text x="765" y="296">03 // EXPLORE</text>
+    </g>
+  </g>
+</svg>
